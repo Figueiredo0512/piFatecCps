@@ -8,10 +8,13 @@
 }
 
 body {
-    background: #ecf0f3
+    background: #ecf0f3;
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper {
+    position: relative;
     max-width: 350px;
     min-height: 500px;
     margin: 80px auto;
@@ -94,4 +97,8 @@ body {
         margin: 30px 20px;
         padding: 40px 15px 15px 15px
     }
+}
+
+header, main, footer {
+    flex-shrink: 0;
 }
