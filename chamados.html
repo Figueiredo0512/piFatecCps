@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Raise - Ticket Management | Home </title>
+</head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="css/css-index.css" media="screen" />
+    <header>
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/pi/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Novo Chamado </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Relatório</a>
+                </li>
+                <!--jogar isso aqui lá pra direita --------------------->
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Matheus </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"> Sair </a>
+                </li>
+                <!------------------------------------------------------>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="container mt-4">
+            <h2> Abertura de chamado </h2>
+        </div>
+
+        <div class="container">
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltip01">Nome</label>
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Nome" required>
+                        <div class="valid-tooltip">
+                            Tudo certo!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltip02">Sobrenome</label>
+                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Sobrenome"
+                            required>
+                        <div class="valid-tooltip">
+                            Tudo certo!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltipUsername">Usuário</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">E-mail</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationTooltipUsername"
+                                placeholder="Usuário@gmail.com" aria-describedby="validationTooltipUsernamePrepend"
+                                required>
+                            <div class="invalid-tooltip">
+                                Por favor, entre com um e-mail válido.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <h4> Informações do chamado </h4>
+                <div class="form-row mt-4">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationTooltip03">Título</label>
+                        <input type="text" class="form-control" id="validationTooltip03" placeholder="Cidade" required>
+                        <div class="invalid-tooltip">
+                            Por favor, infomme um título válido.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationTooltip04">Número do incidente</label>
+                        <input type="text" class="form-control" id="validationTooltip04" placeholder="45804012"
+                            required>
+                        <div class="invalid-tooltip">
+                            Por favor, infomr eum número válido
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationTooltip05">Data de abertura</label>
+                        <input type="text" class="form-control" id="validationTooltip05" placeholder="01/01/2022"
+                            required>
+                        <div class="invalid-tooltip">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <label for="descricao">Descrição do chamado.</label>
+                            <textarea class="form-control" rows="5" id="descricao"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+
+    </header>
+    <br>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="bg-white mt-4">
+
+    <div class="footer-copyright text-center py-3">
+        © 2022 Copyright - Raise - All Rights Reserved
+    </div>
+
+</footer>
+
+</html>
